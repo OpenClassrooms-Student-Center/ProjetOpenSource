@@ -1,0 +1,64 @@
+/* NavBar */
+.navbar-inverse {
+    background-color: #273A5A;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Body */
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #ecf0f5;
+}
+
+/* Formulaire */
+.jumbotron{
+	width: 60%;
+    margin-left: 20%;
+	margin-bottom: 30px;
+    color: inherit;
+    background-color: #ecf0f5;
+}
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 45px;
+}
+.col-sm-6 .col-sm-offset-3{
+	background-color: white;
+    border-top: #273A5A 6px solid;
+}
+
+/* On enlève les HR*/
+.form-group
+{
+	margin-top: 25px;
+}
+
+
+.btn-warning {
+    color: #fff;
+    background-color: #42A5F5;
+    border-color: #e1e5ff;
+}
+.btn-warning:hover {
+    color: #fff;
+    background-color: #273A5A;
+    border-color: #e1e5ff;
+}
+.btn-warning.active, .btn-warning:active, .open>.dropdown-toggle.btn-warning {
+    color: #fff;
+    background-color: #273A5A;
+    border-color: #e1e5ff;
+}
+
+.col-sm-6.col-sm-offset-3 {
+    background-color: white;
+    padding: 2% 2% 2% 2%;
+    border-top: 4px #273A5A solid;
+    box-shadow: 0 5px 5px rgba(3, 3, 3, 0.175);
+}

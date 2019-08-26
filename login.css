@@ -1,3 +1,18 @@
+/* Feuille de styles CSS */
+
+@font-face {
+    font-family: 'tiresias_infofontregular';
+    src: url('Tiresias-Infofont-fontfacekit/Tiresias_Infofont-webfont.eot');
+    src: url('Tiresias-Infofont-fontfacekit/Tiresias_Infofont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Tiresias-Infofont-fontfacekit/Tiresias_Infofont-webfont.woff2') format('woff2'),
+         url('Tiresias-Infofont-fontfacekit/Tiresias_Infofont-webfont.woff') format('woff'),
+         url('Tiresias-Infofont-fontfacekit/Tiresias_Infofont-webfont.ttf') format('truetype'),
+         url('Tiresias-Infofont-fontfacekit/Tiresias_Infofont-webfont.svg#tiresias_infofontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* NavBar */
 .navbar-inverse {
     background-color: #273A5A;

@@ -1,7 +1,7 @@
 /* NavBar */
 .navbar-inverse {
     background-color: #273A5A;
-    border-color: #080808;
+    border-color: red;
 }
 .navbar-inverse .navbar-brand {
     color: #ffffff;

@@ -1,15 +1,24 @@
 /* NavBar */
 .navbar-inverse {
+    padding: 20px 10px;
     background-color: #273A5A;
     border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
 }
+
+.navbar-inverse a:hover {
+    color: blue;
+  }
 
 /* Body */
 body {
+    margin: 0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
@@ -26,7 +35,7 @@ body {
     background-color: #ecf0f5;
 }
 .jumbotron .h1, .jumbotron h1 {
-    font-size: 45px;
+    font-size: 30px;
 }
 .col-sm-6 .col-sm-offset-3{
 	background-color: white;
@@ -39,6 +48,24 @@ body {
 	margin-top: 25px;
 }
 
+.btn{
+    margin-top: 30px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
 
 .btn-warning {
     color: #fff;
